@@ -14,12 +14,7 @@ function New () {
             id="name"
             required 
           />
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-          />
+  
           <label htmlFor="image">Image</label>
           <input
             type="text"
@@ -45,13 +40,14 @@ function New () {
           <br />
           <input type="submit"/>
         </form>
+        <div className="backButton">
+  <a href="/breads"><button>Go back to the index</button></a>
+</div>
       </Default>
     )
 }
 
-<div className="backButton">
-  <a href="/breads"><button>Go back to the index</button></a>
-</div>
+
 
 
 module.exports = New
